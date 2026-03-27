@@ -15,6 +15,7 @@ import Image from "./Image";
 import Invisible from "./Invisible";
 import Links from "./Links";
 import Notes from "./Notes";
+import Pomodoro from "./Pomodoro";
 import Quotes from "./Quotes";
 import Search from "./Search";
 import SpaceFlights from "./SpaceFlights";
@@ -41,6 +42,7 @@ export const WidgetTypes: { [name: string]: WidgetType<any> } = {
 	Invisible,
 	Links,
 	Notes,
+	Pomodoro,
 	Quotes,
 	Search,
 	SpaceFlights,
